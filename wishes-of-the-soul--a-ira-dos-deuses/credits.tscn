@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://cy1ak4itojdb0"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="20251013071452" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.537255)
+position = Vector2(566, 316)
+scale = Vector2(0.605469, 0.575944)
+
+[node name="Label" type="Label" parent="."]
+offset_left = 421.0
+offset_top = 39.0
+offset_right = 824.0
+offset_bottom = 560.0
+text = "                                        CREDITOS
+
+
+Artista-Maxkurfen, Tabis e aracia
+Programador-Maxkurfen e Baderson
+Assets-sei la procuro jaja
+
+"
+
+[node name="voltarcreditos" type="Button" parent="."]
+offset_left = 130.0
+offset_top = 20.0
+offset_right = 214.0
+offset_bottom = 63.0
+text = "←"
+
+[connection signal="pressed" from="voltarcreditos" to="." method="_on_voltarcreditos_pressed"]

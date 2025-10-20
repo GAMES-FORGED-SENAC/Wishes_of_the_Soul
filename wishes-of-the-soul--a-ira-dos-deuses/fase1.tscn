@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://cx6t7yj5py5kw"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(230, 97)
+
+[node name="20251013234218" type="Sprite2D" parent="."]
+position = Vector2(342, 193)
+scale = Vector2(0.572266, 0.341797)
+
+[node name="Fasevoltar" type="Button" parent="."]
+offset_left = -196.0
+offset_top = -82.0
+offset_right = -138.0
+offset_bottom = -51.0
+text = "←"
+
+[connection signal="pressed" from="Fasevoltar" to="." method="_on_fasevoltar_pressed"]
