@@ -1,3 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1760968988
-icon.svg::CompressedTexture2D::3162028647215992405::1760968979::1760968990::1::::<><><>0<>0<>fe5e6445fe5bdbbd756a251522f7f154<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+::res://::1760969463
+500px-Hero_Cover_Art.webp::CompressedTexture2D::3758920878530354026::1760531114::1760969394::1::::<><><>0<>0<>f2854e547d53e2c0d8d04dd63c029b6a<>res://.godot/imported/500px-Hero_Cover_Art.webp-5dc990f94640ce8d78afaeac674b120f.ctex::
+20251013_071452.jpg::CompressedTexture2D::2418904939987065235::1760531886::1760969395::1::::<><><>0<>0<>6972f081e8cd3602e8a4d43a2234619b<>res://.godot/imported/20251013_071452.jpg-a058abde24f14568682d1bf2fa9ef978.ctex::
+20251013_234218.jpg::CompressedTexture2D::7506754496677975702::1760530262::1760969395::1::::<><><>0<>0<>80fb5e0b19c7ee871b911e7baed973a6<>res://.godot/imported/20251013_234218.jpg-4fd86d98480f4d1c0de8dc646ecd07d5.ctex::
+button.gd::GDScript::-1::1760365566::0::1::::<>Button<><>0<>0<><>::
+credits.tscn::PackedScene::6511066830661510991::1760969416::0::1::::<><><>0<>0<><>::
+fase1.tscn::PackedScene::6452392525552048786::1760969416::0::1::::<><><>0<>0<><>::
+fase_1.gd::GDScript::-1::1760531052::0::1::::<>Node2D<><>0<>0<><>::
+icon.svg::CompressedTexture2D::3739136871323928116::1760968979::1760969466::1::::<><><>0<>0<>4ca33ab4393553ed508a6127ccdd9022<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+node_2d.gd::GDScript::-1::1760530848::0::1::::<>Node2D<><>0<>0<><>::
+node_2d.tscn::PackedScene::1963700923189960535::1760969416::0::1::::<><><>0<>0<><>::
