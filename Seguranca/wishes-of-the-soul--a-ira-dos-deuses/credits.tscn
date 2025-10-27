@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=3 uid="uid://dtuwmsjgtv5ol"]
+
+[ext_resource type="Script" path="res://node_2d.gd" id="1_nm7lk"]
+[ext_resource type="Texture2D" uid="uid://bap0amwt08yyl" path="res://20251013_071452.jpg" id="2_c1t8d"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_nm7lk")
+
+[node name="20251013071452" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.537255)
+position = Vector2(566, 316)
+scale = Vector2(0.605469, 0.575944)
+texture = ExtResource("2_c1t8d")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 421.0
+offset_top = 39.0
+offset_right = 824.0
+offset_bottom = 560.0
+text = "                                        CREDITOS
+
+
+Artista-Maxkurfen, Tabis e aracia
+Programador-Maxkurfen e Baderson
+Assets-sei la procuro jaja
+
+"
+
+[node name="voltarcreditos" type="Button" parent="."]
+offset_left = 130.0
+offset_top = 20.0
+offset_right = 214.0
+offset_bottom = 63.0
+text = "←"
+
+[connection signal="pressed" from="voltarcreditos" to="." method="_on_voltarcreditos_pressed"]

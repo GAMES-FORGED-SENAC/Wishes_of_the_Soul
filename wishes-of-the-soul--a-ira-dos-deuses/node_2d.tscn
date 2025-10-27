@@ -1,42 +1,58 @@
-[gd_scene load_steps=3 format=3 uid="uid://dmlv5hsjyka2a"]
+[gd_scene load_steps=5 format=3 uid="uid://dmlv5hsjyka2a"]
 
-[ext_resource type="Script" path="res://node_2d.gd" id="1_wtcfe"]
-[ext_resource type="Texture2D" uid="uid://bts343uq76p6y" path="res://500px-Hero_Cover_Art.webp" id="2_0e48y"]
+[ext_resource type="Script" uid="uid://ddro4au841po7" path="res://node_2d.gd" id="1_wtcfe"]
+[ext_resource type="Texture2D" uid="uid://hyabp08php4f" path="res://assets/Woden.png" id="2_0hol4"]
+[ext_resource type="Texture2D" uid="uid://dvmxir0gpono4" path="res://assets/wts new logo.png" id="4_0hol4"]
+[ext_resource type="AudioStream" uid="uid://bk38spydm5l2l" path="res://assets/WTSMenu.mp3" id="4_kdubu"]
 
-[node name="Node2D" type="Node2D"]
+[node name="Menu" type="Node2D"]
 script = ExtResource("1_wtcfe")
 
-[node name="500Px-heroCoverArt" type="Sprite2D" parent="."]
+[node name="500Px-heroCoverArt" type="TextureRect" parent="."]
 modulate = Color(1, 1, 1, 0.694118)
 light_mask = 0
-position = Vector2(588, 316)
+offset_right = 500.0
+offset_bottom = 271.0
 scale = Vector2(2.3, 2.40569)
-texture = ExtResource("2_0e48y")
+texture = ExtResource("2_0hol4")
+expand_mode = 1
 
-[node name="Button" type="Button" parent="."]
-offset_left = 460.0
-offset_top = 105.0
-offset_right = 700.0
-offset_bottom = 263.0
-text = "hahaha jogue 
+[node name="Play" type="Button" parent="."]
+clip_children = 2
+offset_left = 833.0
+offset_top = 216.0
+offset_right = 1057.0
+offset_bottom = 254.0
+text = "PLAY 
 "
 
-[node name="Button2" type="Button" parent="."]
-offset_left = 460.0
-offset_top = 278.0
-offset_right = 700.0
-offset_bottom = 436.0
-text = "hahaha creditos
+[node name="Creditos" type="Button" parent="."]
+self_modulate = Color(1, 0.917647, 1, 1)
+offset_left = 838.0
+offset_top = 283.0
+offset_right = 1065.0
+offset_bottom = 328.0
+text = "CREDITOS
 "
 
-[node name="Button3" type="Button" parent="."]
-offset_left = 461.0
-offset_top = 446.0
-offset_right = 701.0
-offset_bottom = 604.0
-text = "hahaha saia
-"
+[node name="WtsMenu" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(10, 23)
+stream = ExtResource("4_kdubu")
+autoplay = true
+parameters/looping = true
 
-[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
-[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
-[connection signal="pressed" from="Button3" to="." method="_on_button_3_pressed"]
+[node name="WtsNewLogo" type="Sprite2D" parent="."]
+position = Vector2(946.188, 141)
+scale = Vector2(0.318505, 0.266249)
+texture = ExtResource("4_0hol4")
+
+[node name="Sair" type="Button" parent="."]
+offset_left = 841.0
+offset_top = 356.0
+offset_right = 1064.0
+offset_bottom = 399.0
+text = "EXIT"
+
+[connection signal="pressed" from="Play" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Creditos" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Sair" to="." method="_on_button_3_pressed"]

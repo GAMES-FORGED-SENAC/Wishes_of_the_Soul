@@ -1,28 +1,44 @@
 [gd_scene load_steps=3 format=3 uid="uid://dtuwmsjgtv5ol"]
 
-[ext_resource type="Script" path="res://node_2d.gd" id="1_nm7lk"]
-[ext_resource type="Texture2D" uid="uid://bap0amwt08yyl" path="res://20251013_071452.jpg" id="2_c1t8d"]
+[ext_resource type="Script" uid="uid://ddro4au841po7" path="res://node_2d.gd" id="1_nm7lk"]
+[ext_resource type="Texture2D" uid="uid://hyabp08php4f" path="res://assets/Woden.png" id="2_c1t8d"]
 
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_nm7lk")
 
-[node name="20251013071452" type="Sprite2D" parent="."]
-modulate = Color(1, 1, 1, 0.537255)
-position = Vector2(566, 316)
-scale = Vector2(0.605469, 0.575944)
+[node name="Woden" type="Sprite2D" parent="."]
+modulate = Color(0.46484, 0.441924, 0.634983, 1)
+position = Vector2(574.875, 321.875)
+scale = Vector2(0.299544, 0.29919)
 texture = ExtResource("2_c1t8d")
 
+[node name="20251013071452" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.537255)
+position = Vector2(613, 322)
+scale = Vector2(0.605469, 0.575944)
+
 [node name="Label" type="Label" parent="."]
-offset_left = 421.0
-offset_top = 39.0
-offset_right = 824.0
-offset_bottom = 560.0
-text = "                                        CREDITOS
+offset_left = 110.0
+offset_top = 72.0
+offset_right = 513.0
+offset_bottom = 593.0
+text = "                                                                                                       CREDITOS
 
 
-Artista-Maxkurfen, Tabis e aracia
-Programador-Maxkurfen e Baderson
-Assets-sei la procuro jaja
+Artistas:
+Thalles 
+Araci Gabriela
+
+Programadores:
+Max kurfen
+Jáderson
+
+Mash up:
+Max Kurfen
+Jáderson
+ creditos dos samples: 
+ Sereninade - Saint Juvi
+ Hero - Mili 
 
 "
 

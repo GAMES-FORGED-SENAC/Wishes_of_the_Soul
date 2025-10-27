@@ -10,10 +10,14 @@ config_version=5
 
 [application]
 
-config/name="MyNameIs"
+config/name="Wishes Of  The Soul (versão final)"
 run/main_scene="uid://dmlv5hsjyka2a"
 config/features=PackedStringArray("4.4", "Mobile")
 config/icon="res://icon.svg"
+
+[display]
+
+window/stretch/mode="canvas_items"
 
 [rendering]
 
