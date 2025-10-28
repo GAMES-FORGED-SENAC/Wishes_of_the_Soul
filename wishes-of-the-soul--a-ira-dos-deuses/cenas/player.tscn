@@ -50,3 +50,4 @@ position = Vector2(7, 15)
 shape = SubResource("RectangleShape2D_15dsx")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+limit_bottom = 648
