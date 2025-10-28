@@ -1,19 +1,24 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1761566990
+::res://::1761653885
 500px-Hero_Cover_Art.webp::CompressedTexture2D/CompressedTexture2D::3758920878530354026::1760531114::1760963998::1::::<><><>0<>0<>f2854e547d53e2c0d8d04dd63c029b6a<>res://.godot/imported/500px-Hero_Cover_Art.webp-5dc990f94640ce8d78afaeac674b120f.ctex::
 20251013_071452.jpg::CompressedTexture2D/CompressedTexture2D::2418904939987065235::1760531886::1761566932::1::::<><><>0<>0<>6972f081e8cd3602e8a4d43a2234619b<>res://.godot/imported/20251013_071452.jpg-a058abde24f14568682d1bf2fa9ef978.ctex::
 20251013_234218.jpg::CompressedTexture2D/CompressedTexture2D::7506754496677975702::1760530262::1760964000::1::::<><><>0<>0<>80fb5e0b19c7ee871b911e7baed973a6<>res://.godot/imported/20251013_234218.jpg-4fd86d98480f4d1c0de8dc646ecd07d5.ctex::
 button.gd::GDScript/GDScript::-1::1760365566::0::1::::<>Button<><>0<>0<><>::
-credits.tscn::PackedScene::8535495798273240759::1761566957::0::1::::<><><>0<>0<><>::uid://ddro4au841po7::::res://node_2d.gd<>uid://hyabp08php4f::::res://assets/Woden.png
-fase1.tscn::PackedScene::4245007114797785411::1761566957::0::1::::<><><>0<>0<><>::uid://de7lfdgeescyo::::res://20251013_234218.jpg<>res://fase_1.gd
-fase_1.gd::GDScript/GDScript::-1::1760531052::0::1::::<>Node2D<><>0<>0<><>::
+credits.tscn::PackedScene::8535495798273240759::1761653219::0::1::::<><><>0<>0<><>::uid://ddro4au841po7::::res://menu.gd<>uid://hyabp08php4f::::res://assets/Woden.png
+fase1.tscn::PackedScene::4245007114797785411::1761653204::0::1::::<><><>0<>0<><>::uid://de7lfdgeescyo::::res://20251013_234218.jpg
 icon.svg::CompressedTexture2D/CompressedTexture2D::3739136871323928116::1756294824::1760963998::1::::<><><>0<>0<>4ca33ab4393553ed508a6127ccdd9022<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-node_2d.gd::GDScript::7405824862169639800::1761142816::0::1::::<>Node2D<><>0<>0<><>::
-node_2d.tscn::PackedScene::8025565356606907270::1761566958::0::1::::<><><>0<>0<><>::uid://ddro4au841po7::::res://node_2d.gd<>uid://hyabp08php4f::::res://assets/Woden.png<>uid://dvmxir0gpono4::::res://assets/wts new logo.png<>uid://bk38spydm5l2l::::res://assets/WTSMenu.mp3
-::res://assets/::1761566913
+menu.gd::GDScript::7405824862169639800::1761653204::0::1::::<>Node2D<><>0<>0<><>::
+node_2d.tscn::PackedScene::8025565356606907270::1761653219::0::1::::<><><>0<>0<><>::uid://ddro4au841po7::::res://menu.gd<>uid://hyabp08php4f::::res://assets/Woden.png<>uid://dvmxir0gpono4::::res://assets/wts new logo.png<>uid://bk38spydm5l2l::::res://assets/WTSMenu.mp3
+player.gd::GDScript::5913331550851203319::1761653885::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://assets/::1761653547
 Woden.png::CompressedTexture2D/CompressedTexture2D::540869585347636259::1761136880::1761566913::1::::<><><>0<>0<>4952024efcaf6737177fef6045581676<>res://.godot/imported/Woden.png-08ac194c2bb99cb60d8467e1bea3bb21.ctex::
 wts new logo.png::CompressedTexture2D/CompressedTexture2D::8659412009521854605::1761137852::1761566911::1::::<><><>0<>0<>0eef0b55173c60db061573a3884c123f<>res://.godot/imported/wts new logo.png-adf78a8beb2d0bd7b095f431b0d18620.ctex::
 WTSMenu.mp3::AudioStreamMP3/AudioStreamMP3::3148148327317773277::1761137414::1761566911::1::::<><><>0<>0<>13a415984536277df69b69aab15ab881<>res://.godot/imported/WTSMenu.mp3-f1bcd4b3a7a534a488e5351b93f79e1c.mp3str::
-::res://cenas/::1761137430
+::res://assets/Personagem/::1761652941
+andarfrent.png::CompressedTexture2D/CompressedTexture2D::6249260232727520952::1761652317::1761652317::1::::<><><>0<>0<>316493f56cf8711705dad03951ec8d48<>res://.godot/imported/andarfrent.png-d3ce88018cbcd8a05b1949ff4e57f4a9.ctex::
+andartras.png::CompressedTexture2D/CompressedTexture2D::3944089121301733900::1761652348::1761652348::1::::<><><>0<>0<>511774bd2657d678b4ca797cfea1bcdc<>res://.godot/imported/andartras.png-54deb5b14f153d6555c7b1a829ba8624.ctex::
+idletrue].png::CompressedTexture2D/CompressedTexture2D::4704619875105561719::1761652941::1761652306::1::::<><><>0<>0<>119eebeac7fad8be038e5cabf7e4e13d<>res://.godot/imported/idletrue].png-7ac7fd1c227dad8ac0b6d14a01cdf4c7.ctex::
+::res://cenas/::1761653885
+player.tscn::PackedScene::5994304568995848117::1761653959::0::1::::<><><>0<>0<><>::uid://b8a7nwx164ihr::::res://assets/Personagem/idletrue].png<>uid://cqipya65ubvn8::::res://player.gd<>uid://cvbgnx4xwkyh1::::res://assets/Personagem/andarfrent.png<>uid://bwgsto00h8t4o::::res://assets/Personagem/andartras.png
 ::res://script/::1761566911
 wts logo.png::CompressedTexture2D/CompressedTexture2D::3989353199413171999::1761137288::1761566911::1::::<><><>0<>0<>15a278ab445541e98bb0f43f71c39d70<>res://.godot/imported/wts logo.png-0e3d33ec48e8d08fdee0de09747a9ae4.ctex::

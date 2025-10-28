@@ -1,3 +1,6 @@
 res://credits.tscn
 res://fase1.tscn
 res://node_2d.tscn
+res://node_2d.gd
+res://cenas/player.tscn
+res://player.gd

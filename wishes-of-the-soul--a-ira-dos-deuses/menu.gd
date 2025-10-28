@@ -1,7 +1,5 @@
 extends Node2D
-
 var contador = 0
-
 
 
 func _on_button_pressed() -> void:

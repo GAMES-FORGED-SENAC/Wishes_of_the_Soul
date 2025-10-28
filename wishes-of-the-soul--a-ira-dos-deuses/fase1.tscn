@@ -1,22 +1,16 @@
-[gd_scene load_steps=3 format=3 uid="uid://b1qkv852hkxyx"]
+[gd_scene load_steps=2 format=3 uid="uid://b1qkv852hkxyx"]
 
-[ext_resource type="Texture2D" uid="uid://de7lfdgeescyo" path="res://20251013_234218.jpg" id="1_7yfwc"]
-[ext_resource type="Script" path="res://fase_1.gd" id="1_88pbf"]
+[ext_resource type="PackedScene" uid="uid://crnxk5p37c68h" path="res://cenas/player.tscn" id="1_7yfwc"]
 
-[node name="Node2D" type="Node2D"]
-position = Vector2(230, 97)
-script = ExtResource("1_88pbf")
-
-[node name="20251013234218" type="Sprite2D" parent="."]
-position = Vector2(342, 193)
-scale = Vector2(0.572266, 0.341797)
-texture = ExtResource("1_7yfwc")
+[node name="Fase1" type="Node2D"]
 
 [node name="Fasevoltar" type="Button" parent="."]
-offset_left = -196.0
-offset_top = -82.0
-offset_right = -138.0
-offset_bottom = -51.0
+offset_left = 8.0
+offset_top = 8.0
+offset_right = 66.0
+offset_bottom = 39.0
 text = "←"
+
+[node name="Player" parent="." instance=ExtResource("1_7yfwc")]
 
 [connection signal="pressed" from="Fasevoltar" to="." method="_on_fasevoltar_pressed"]

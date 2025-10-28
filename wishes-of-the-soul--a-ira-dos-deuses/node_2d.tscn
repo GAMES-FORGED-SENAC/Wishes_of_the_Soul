@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://dmlv5hsjyka2a"]
 
-[ext_resource type="Script" uid="uid://ddro4au841po7" path="res://node_2d.gd" id="1_wtcfe"]
+[ext_resource type="Script" uid="uid://ddro4au841po7" path="res://menu.gd" id="1_wtcfe"]
 [ext_resource type="Texture2D" uid="uid://hyabp08php4f" path="res://assets/Woden.png" id="2_0hol4"]
 [ext_resource type="Texture2D" uid="uid://dvmxir0gpono4" path="res://assets/wts new logo.png" id="4_0hol4"]
 [ext_resource type="AudioStream" uid="uid://bk38spydm5l2l" path="res://assets/WTSMenu.mp3" id="4_kdubu"]
