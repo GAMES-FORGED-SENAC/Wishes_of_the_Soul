@@ -16,7 +16,7 @@
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_g36kx"]
 
-[node name="Fase1" type="Node2D"]
+[node name="Node2D" type="Node2D"]
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
@@ -150,6 +150,7 @@ offset_bottom = 420.0
 text = "←"
 
 [node name="chao" type="StaticBody2D" parent="."]
+position = Vector2(0, -39)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="chao"]
 position = Vector2(1895, 656)

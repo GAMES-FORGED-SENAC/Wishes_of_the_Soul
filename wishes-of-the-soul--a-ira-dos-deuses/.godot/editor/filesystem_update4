@@ -9,3 +9,4 @@ res://cenas/node_2d.tscn
 res://cenas/fase1.tscn
 res://cenas/Menu.tscn
 res://script/menu.gd
+res://script/woden.gd

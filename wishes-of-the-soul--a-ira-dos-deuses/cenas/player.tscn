@@ -1,9 +1,18 @@
-[gd_scene load_steps=10 format=3 uid="uid://crnxk5p37c68h"]
+[gd_scene load_steps=13 format=3 uid="uid://crnxk5p37c68h"]
 
 [ext_resource type="Texture2D" uid="uid://b8a7nwx164ihr" path="res://assets/Personagem/idletrue].png" id="1_kthid"]
 [ext_resource type="Script" uid="uid://cqipya65ubvn8" path="res://script/woden.gd" id="1_xojfc"]
 [ext_resource type="Texture2D" uid="uid://cvbgnx4xwkyh1" path="res://assets/Personagem/andarfrent.png" id="2_xojfc"]
+[ext_resource type="Texture2D" uid="uid://b32hr0ajoxaq3" path="res://assets/Personagem/midjump.png" id="3_8v4ht"]
 [ext_resource type="Texture2D" uid="uid://bwgsto00h8t4o" path="res://assets/Personagem/andartras.png" id="3_15dsx"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xojfc"]
+atlas = ExtResource("1_kthid")
+region = Rect2(68, 35, 52, 82)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_15dsx"]
+atlas = ExtResource("3_8v4ht")
+region = Rect2(68, 35, 52, 82)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_8v4ht"]
 atlas = ExtResource("1_kthid")
@@ -21,6 +30,22 @@ region = Rect2(68, 35, 52, 82)
 animations = [{
 "frames": [{
 "duration": 1.0,
+"texture": SubResource("AtlasTexture_xojfc")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_15dsx")
+}],
+"loop": false,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": SubResource("AtlasTexture_8v4ht")
 }, {
 "duration": 1.0,
@@ -30,7 +55,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_ogt8j")
 }],
 "loop": true,
-"name": &"default",
+"name": &"run",
 "speed": 5.0
 }]
 
@@ -41,9 +66,11 @@ size = Vector2(34, 50)
 script = ExtResource("1_xojfc")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(2, 2)
 sprite_frames = SubResource("SpriteFrames_rijvs")
-frame = 1
-frame_progress = 0.0262576
+animation = &"jump"
+autoplay = "idle"
+frame_progress = 1.0
 
 [node name="colicao" type="CollisionShape2D" parent="."]
 position = Vector2(7, 15)
