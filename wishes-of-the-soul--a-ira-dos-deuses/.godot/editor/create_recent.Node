@@ -1,3 +1,5 @@
+AnimatedSprite2D
+CharacterBody2D
 TextureRect
 CollisionShape2D
 StaticBody2D
@@ -5,5 +7,3 @@ Sprite2D
 ParallaxLayer
 ParallaxBackground
 Camera2D
-CharacterBody2D
-AnimatedSprite2D

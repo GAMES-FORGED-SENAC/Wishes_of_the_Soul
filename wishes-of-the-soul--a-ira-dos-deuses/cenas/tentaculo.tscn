@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://cigwgpml0vet3"]
+
+[node name="Tentaculo" type="CharacterBody2D"]
