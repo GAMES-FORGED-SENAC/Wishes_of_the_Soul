@@ -1,0 +1,52 @@
+[gd_scene load_steps=3 format=3 uid="uid://dtuwmsjgtv5ol"]
+
+[ext_resource type="Script" uid="uid://ddro4au841po7" path="res://script/menu.gd" id="1_b3byf"]
+[ext_resource type="Texture2D" uid="uid://hyabp08php4f" path="res://assets/menu/Woden.png" id="2_4jklv"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_b3byf")
+
+[node name="Woden" type="Sprite2D" parent="."]
+modulate = Color(0.46484, 0.441924, 0.634983, 1)
+position = Vector2(574.875, 321.875)
+scale = Vector2(0.299544, 0.29919)
+texture = ExtResource("2_4jklv")
+
+[node name="20251013071452" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.537255)
+position = Vector2(613, 322)
+scale = Vector2(0.605469, 0.575944)
+
+[node name="Label" type="Label" parent="."]
+offset_left = 110.0
+offset_top = 72.0
+offset_right = 513.0
+offset_bottom = 593.0
+text = "                                                                                                       CREDITOS
+
+
+Artistas:
+Thalles 
+Araci Gabriela
+
+Programadores:
+Max kurfen
+Jáderson
+
+Mash up:
+Max Kurfen
+Jáderson
+ creditos dos samples: 
+ Sereninade - Saint Juvi
+ Hero - Mili 
+
+"
+
+[node name="voltarcreditos" type="Button" parent="."]
+offset_left = 130.0
+offset_top = 20.0
+offset_right = 214.0
+offset_bottom = 63.0
+text = "←"
+
+[connection signal="pressed" from="voltarcreditos" to="." method="_on_voltarcreditos_pressed"]

@@ -1,0 +1,58 @@
+[gd_scene load_steps=5 format=3 uid="uid://dmlv5hsjyka2a"]
+
+[ext_resource type="Script" uid="uid://ddro4au841po7" path="res://script/menu.gd" id="1_ovvm4"]
+[ext_resource type="Texture2D" uid="uid://hyabp08php4f" path="res://assets/menu/Woden.png" id="2_410y7"]
+[ext_resource type="AudioStream" uid="uid://bk38spydm5l2l" path="res://assets/menu/WTSMenu.mp3" id="3_6snwf"]
+[ext_resource type="Texture2D" uid="uid://dvmxir0gpono4" path="res://assets/menu/wts new logo.png" id="4_lwqk8"]
+
+[node name="Menu" type="Node2D"]
+script = ExtResource("1_ovvm4")
+
+[node name="500Px-heroCoverArt" type="TextureRect" parent="."]
+modulate = Color(1, 1, 1, 0.694118)
+light_mask = 0
+offset_right = 500.0
+offset_bottom = 271.0
+scale = Vector2(2.3, 2.40569)
+texture = ExtResource("2_410y7")
+expand_mode = 1
+
+[node name="Play" type="Button" parent="."]
+clip_children = 2
+offset_left = 833.0
+offset_top = 216.0
+offset_right = 1057.0
+offset_bottom = 254.0
+text = "PLAY 
+"
+
+[node name="Creditos" type="Button" parent="."]
+self_modulate = Color(1, 0.917647, 1, 1)
+offset_left = 838.0
+offset_top = 283.0
+offset_right = 1065.0
+offset_bottom = 328.0
+text = "CREDITOS
+"
+
+[node name="WtsMenu" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(10, 23)
+stream = ExtResource("3_6snwf")
+autoplay = true
+parameters/looping = true
+
+[node name="WtsNewLogo" type="Sprite2D" parent="."]
+position = Vector2(946.188, 141)
+scale = Vector2(0.318505, 0.266249)
+texture = ExtResource("4_lwqk8")
+
+[node name="Sair" type="Button" parent="."]
+offset_left = 841.0
+offset_top = 356.0
+offset_right = 1064.0
+offset_bottom = 399.0
+text = "EXIT"
+
+[connection signal="pressed" from="Play" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Creditos" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="Sair" to="." method="_on_button_3_pressed"]

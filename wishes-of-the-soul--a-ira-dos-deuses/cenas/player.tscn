@@ -1,7 +1,7 @@
 [gd_scene load_steps=10 format=3 uid="uid://crnxk5p37c68h"]
 
 [ext_resource type="Texture2D" uid="uid://b8a7nwx164ihr" path="res://assets/Personagem/idletrue].png" id="1_kthid"]
-[ext_resource type="Script" uid="uid://cqipya65ubvn8" path="res://woden.gd" id="1_xojfc"]
+[ext_resource type="Script" uid="uid://cqipya65ubvn8" path="res://script/woden.gd" id="1_xojfc"]
 [ext_resource type="Texture2D" uid="uid://cvbgnx4xwkyh1" path="res://assets/Personagem/andarfrent.png" id="2_xojfc"]
 [ext_resource type="Texture2D" uid="uid://bwgsto00h8t4o" path="res://assets/Personagem/andartras.png" id="3_15dsx"]
 
