@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://jftpbd7o110h"
-path="res://.godot/imported/tenbig.png-d25398fc056be34e5b47ceee8db372ee.ctex"
+uid="uid://diy157ram3euu"
+path="res://.godot/imported/tensmall.png-22e906413f59093d319deb8ba8f461f6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tenbig.png"
-dest_files=["res://.godot/imported/tenbig.png-d25398fc056be34e5b47ceee8db372ee.ctex"]
+source_file="res://inimigo 1 (ten.)/tensmall.png"
+dest_files=["res://.godot/imported/tensmall.png-22e906413f59093d319deb8ba8f461f6.ctex"]
 
 [params]
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://b1qkv852hkxyx"]
+[gd_scene load_steps=16 format=3 uid="uid://b1qkv852hkxyx"]
 
 [ext_resource type="Texture2D" uid="uid://cve4avje7qq4j" path="res://assets/Background layers/Layer_0011_0.png" id="1_i8r7k"]
 [ext_resource type="Texture2D" uid="uid://b223sojt7ewwb" path="res://assets/Background layers/Layer_0009_2.png" id="2_1w6lh"]
@@ -13,6 +13,7 @@
 [ext_resource type="Texture2D" uid="uid://l6ckk7a525xa" path="res://assets/Background layers/Layer_0001_8.png" id="10_f6tgt"]
 [ext_resource type="Texture2D" uid="uid://dev106ihf8gc7" path="res://assets/Background layers/Layer_0000_9.png" id="11_5xwtr"]
 [ext_resource type="PackedScene" uid="uid://crnxk5p37c68h" path="res://cenas/player.tscn" id="12_k0sd7"]
+[ext_resource type="PackedScene" uid="uid://iv5kaquswo1r" path="res://pause.tscn" id="14_ke6da"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_g36kx"]
 
@@ -143,10 +144,10 @@ offset_bottom = 793.0
 texture = ExtResource("11_5xwtr")
 
 [node name="Fasevoltar" type="Button" parent="."]
-offset_left = -189.0
-offset_top = 389.0
-offset_right = -131.0
-offset_bottom = 420.0
+offset_left = 24.0
+offset_top = -112.0
+offset_right = 82.0
+offset_bottom = -81.0
 text = "←"
 
 [node name="chao" type="StaticBody2D" parent="."]
@@ -158,5 +159,8 @@ scale = Vector2(199.64, 1)
 shape = SubResource("RectangleShape2D_g36kx")
 
 [node name="Player" parent="." instance=ExtResource("12_k0sd7")]
+
+[node name="Pause" parent="." instance=ExtResource("14_ke6da")]
+visible = false
 
 [connection signal="pressed" from="Fasevoltar" to="." method="_on_fasevoltar_pressed"]

@@ -18,6 +18,7 @@ texture = ExtResource("2_alp18")
 expand_mode = 1
 
 [node name="Play" type="Button" parent="."]
+modulate = Color(0.708083, 0.718759, 0.842075, 1)
 clip_children = 2
 offset_left = 833.0
 offset_top = 216.0
@@ -27,7 +28,7 @@ text = "PLAY
 "
 
 [node name="Creditos" type="Button" parent="."]
-self_modulate = Color(1, 0.917647, 1, 1)
+modulate = Color(0.879797, 0.817031, 0.95526, 1)
 offset_left = 838.0
 offset_top = 283.0
 offset_right = 1065.0
